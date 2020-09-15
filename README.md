@@ -1,2 +1,1 @@
-# ProjetJava2
-hemebiotech 
+Sample project for OpenClassroom's fundamentals of Java
