@@ -5,10 +5,14 @@ import java.io.IOException;
 import java.util.TreeMap;
 /**
  * 
- * écriture du fichier des résultats après avoir trié et compté les symptoms;
- *
+ * @author Françoise Zimmer
+ * writing the results file after sorting and counting the symptoms.
  */
 public class EcritureFichierSortie {
+	/**
+	 * 
+	 * @throws IOException
+	 */
 	public void fichierSortie() throws IOException {
 		SortAlphabetically alpha = new SortAlphabetically();
 		TreeMap<String, Integer> map = alpha.counters();
